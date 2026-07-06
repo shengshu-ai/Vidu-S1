@@ -20,9 +20,6 @@
   <a href="#api-usage">
     <img alt="API Usage" src="https://img.shields.io/badge/API-Usage-00a67d?style=for-the-badge&logo=fastapi&logoColor=white">
   </a>
-  <a href="Overview_final.pdf">
-    <img alt="Overview" src="https://img.shields.io/badge/Overview-PDF-d93025?style=for-the-badge&logo=googledocs&logoColor=white">
-  </a>
 </p>
 
 <p align="center">
