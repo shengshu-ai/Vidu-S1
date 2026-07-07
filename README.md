@@ -6,10 +6,10 @@
 
 <p align="center">
   <a href="https://vidu.com/vidu-stream">
-    <img alt="Demo" src="https://img.shields.io/badge/Demo-Vidu_Stream-2f6fed?style=for-the-badge&logo=googlegemini&logoColor=white">
+    <img alt="Try Vidu Stream" src="https://img.shields.io/badge/Try-Vidu_Stream-2f6fed?style=for-the-badge&logo=googlegemini&logoColor=white">
   </a>
-  <a href="#citation">
-    <img alt="Paper" src="https://img.shields.io/badge/Paper-arXiv_Coming_Soon-b31b1b?style=for-the-badge&logo=arxiv&logoColor=white">
+  <a href="https://arxiv.org/abs/2607.03118">
+    <img alt="Paper" src="https://img.shields.io/badge/Paper-arXiv%3A2607.03118-b31b1b?style=for-the-badge&logo=arxiv&logoColor=white">
   </a>
   <a href="#documentation">
     <img alt="English Documentation" src="https://img.shields.io/badge/Docs-English-2f6fed?style=for-the-badge&logo=readthedocs&logoColor=white">
@@ -41,13 +41,13 @@ Vidu S1 supports personalized characters from user-uploaded images, including re
 ### Documentation
 
 - **English User Guide**: Coming soon.
-- **中文使用说明**: 待补充。
+- **Chinese User Guide**: Coming soon.
 
 ### Websites
 
-- **Playable Demo**: [vidu.com/vidu-stream](https://vidu.com/vidu-stream)
+- **Try Vidu Stream**: [vidu.com/vidu-stream](https://vidu.com/vidu-stream)
 - **Product Homepage**: Coming soon.
-- **arXiv Paper**: Coming soon.
+- **arXiv Paper**: [arxiv.org/abs/2607.03118](https://arxiv.org/abs/2607.03118)
 
 ### API Usage
 
@@ -58,14 +58,14 @@ Vidu S1 supports personalized characters from user-uploaded images, including re
 ## Updates
 
 - **[2026-07]**: Vidu S1 technical README released.
-- **[2026-07]**: Playable online demo is available at [vidu.com/vidu-stream](https://vidu.com/vidu-stream).
+- **[2026-07]**: Try Vidu Stream at [vidu.com/vidu-stream](https://vidu.com/vidu-stream).
 
 ## Method Highlights
 
-Vidu S1 is designed around four goals: continuous user interaction, explicit speech-guided future control, stable long-horizon generation, and practical real-time serving.
+Vidu S1 is designed around four goals: real-time user interaction during generation, explicit speech-guided future control, stable long-horizon generation, and practical real-time serving.
 
 - **Speech-guided future control**: spoken instructions directly condition future video content, allowing users to intervene during generation.
-- **Infinite streaming inference**: sliding-window decoding, persistent reference context, RoPE repositioning, and TwinCache keep per-step latency constant while supporting open-ended generation.
+- **Infinite streaming inference**: TwinCache uses stage-aware noisy and clean history caches to balance long-term temporal consistency and visual fidelity during streaming generation.
 - **Three-stage training**: Vidu S1 first trains a bidirectional video-audio teacher, adapts it into a causal autoregressive teacher with Teacher Forcing and Diffusion Forcing, then distills it with DMD and PCM regularization for efficient few-step generation.
 - **Efficient serving stack**: TurboDiffusion, TurboServe, attention acceleration, W8A8 quantized GEMM, kernel fusion, CUDA Graph, and multi-GPU parallelism enable real-time 540p generation.
 
@@ -107,11 +107,12 @@ If you find Vidu S1 useful for your research, please cite:
 
 ```bibtex
 @misc{zhang2026vidus1realtimeinteractive,
-      title={Vidu S1: A Real-Time Interactive Video Generation Model},
+      title={Vidu S1: A Real-Time Interactive Video Generation Model}, 
       author={Jintao Zhang and Kai Jiang and Jintao Chen and Xu Wang and Yang Luo and Yuji Wang and Dechuang Chen and Jungang Li and Chengyang Ye and Marco Chen and Hongzhou Zhu and Min Zhao and Yuxuan Jiang and Zhengkun Huang and Chendong Xiang and Kaiwen Zheng and Haoxu Wang and Xiaohang Wang and Qi Jia and Xin Chen and Yimin Chen and Youhe Jiang and Fangcheng Fu and Zhijie Deng and Fan Bao and Jianfei Chen and Jun Zhu},
       year={2026},
+      eprint={2607.03118},
       archivePrefix={arXiv},
-      % eprint={},
-      % url={}
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2607.03118}, 
 }
 ```
