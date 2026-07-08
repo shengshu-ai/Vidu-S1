@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://vidu.com/vidu-stream">
-    <img alt="Try Vidu Stream" src="https://img.shields.io/badge/Try-Vidu_Stream-2f6fed?style=for-the-badge&logo=googlegemini&logoColor=white">
+    <img alt="Try Vidu Stream" src="https://img.shields.io/badge/Try-Vidu_Stream-00a67d?style=for-the-badge&logo=googlegemini&logoColor=white">
   </a>
   <a href="https://arxiv.org/abs/2607.03118">
     <img alt="Paper" src="https://img.shields.io/badge/Paper-arXiv%3A2607.03118-b31b1b?style=for-the-badge&logo=arxiv&logoColor=white">
@@ -15,10 +15,10 @@
     <img alt="English Documentation" src="https://img.shields.io/badge/Docs-English-2f6fed?style=for-the-badge&logo=readthedocs&logoColor=white">
   </a>
   <a href="#documentation">
-    <img alt="Chinese Documentation" src="https://img.shields.io/badge/Docs-Chinese-2f6fed?style=for-the-badge&logo=readthedocs&logoColor=white">
+    <img alt="Chinese Documentation" src="https://img.shields.io/badge/Docs-Chinese-0891b2?style=for-the-badge&logo=readthedocs&logoColor=white">
   </a>
   <a href="#api-usage">
-    <img alt="API Usage" src="https://img.shields.io/badge/API-Usage-00a67d?style=for-the-badge&logo=fastapi&logoColor=white">
+    <img alt="API Usage" src="https://img.shields.io/badge/API-Usage-7c3aed?style=for-the-badge&logo=fastapi&logoColor=white">
   </a>
 </p>
 
@@ -32,9 +32,14 @@
 
 Vidu S1 is a real-time interactive video generation model for voice-controlled digital characters. Users can guide generated video content at any moment through spoken instructions, enabling live interaction instead of the conventional offline, one-shot generation workflow.
 
-The model supports infinite-length real-time generation while preserving visual quality, identity consistency, and audio-video synchronization. Built with TurboDiffusion and TurboServe, Vidu S1 generates 540p video at up to **42 FPS** on consumer GPUs.
+Key breakthroughs:
 
-Vidu S1 supports personalized characters from user-uploaded images, including real people, anime-style characters, and pets. It can also respond to different voice tones and action instructions, making it suitable for live conversation, virtual hosts, entertainment avatars, and educational agents.
+1. **Real-time speech control over video content**
+   - Users can directly instruct digital characters to perform actions.
+2. **Infinite-length real-time interactive generation**
+   - Vidu S1 generates 540p video at up to **42 FPS** and can run on consumer GPUs.
+3. **Custom character images and voice tones**
+   - Vidu S1 supports real people, anime-style characters, pets, and other personalized avatars.
 
 ## Links
 
