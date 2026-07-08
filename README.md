@@ -30,8 +30,6 @@
   <img src="figures/overview.png" alt="Vidu S1 Overview" width="100%">
 </p>
 
----
-
 ## Introduction
 
 Vidu S1 is a real-time interactive video generation model for voice-controlled digital characters. Users can guide generated video content at any moment through spoken instructions, enabling live interaction.
