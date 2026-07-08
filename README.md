@@ -1,4 +1,4 @@
-# Vidu-S1
+au# Vidu-S1
 
 <p align="center">
   <b><font size="8">Vidu S1: A Real-Time Interactive Video Generation Model</font></b>
@@ -60,59 +60,15 @@ Vidu S1 supports personalized characters from user-uploaded images, including re
 - **[2026-07]**: Vidu S1 technical README released.
 - **[2026-07]**: Try Vidu Stream at [vidu.com/vidu-stream](https://vidu.com/vidu-stream).
 
-## Method Highlights
-
-Vidu S1 is designed around four goals: real-time user interaction during generation, explicit speech-guided future control, stable long-horizon generation, and practical real-time serving.
-
-- **Speech-guided future control**: spoken instructions directly condition future video content, allowing users to intervene during generation.
-- **Infinite streaming inference**: TwinCache uses stage-aware noisy and clean history caches to balance long-term temporal consistency and visual fidelity during streaming generation.
-- **Three-stage training**: Vidu S1 first trains a bidirectional video-audio teacher, adapts it into a causal autoregressive teacher with Teacher Forcing and Diffusion Forcing, then distills it with DMD and PCM regularization for efficient few-step generation.
-- **Efficient serving stack**: TurboDiffusion, TurboServe, attention acceleration, W8A8 quantized GEMM, kernel fusion, CUDA Graph, and multi-GPU parallelism enable real-time 540p generation.
-
-## Evaluation Results
-
-### HDTF Benchmark
-
-Vidu S1 achieves leading quantitative results among audio-driven avatar generation systems while also supporting instruction following and real-time inference.
-
-| Model | Instruction Following | Real-Time | Resolution | FPS / Throughput | CSIM ↑ | Sync-D ↓ | DOVER ↑ |
-| --- | --- | --- | --- | ---: | ---: | ---: | ---: |
-| OmniAvatar | No | No | 480p | -- | 0.8062 | 9.242 | 0.5476 |
-| StableAvatar-1.3B | No | No | 480p | -- | 0.8358 | 11.18 | 0.5560 |
-| Hallo3 | No | No | 480x720 | -- | 0.7698 | 8.660 | 0.5313 |
-| Wan2.2-S2V-14B | No | No | 480p/720p | -- | 0.7936 | 8.255 | 0.5510 |
-| LiveAvatar | No | Yes | -- | -- | 0.8127 | 8.447 | 0.5639 |
-| LemonSlice | No | Yes | 368x560 | -- | 0.8407 | 7.921 | 0.5196 |
-| HeyGen | No | Yes | -- | 25 FPS | 0.9191 | 8.037 | 0.4864 |
-| Kling Avatar 2.0 | Yes | No | -- | -- | 0.8688 | 8.158 | 0.5406 |
-| **Vidu S1** | **Yes** | **Yes** | **540p (960x540)** | **42 FPS** | **0.9192** | **7.8470** | **0.5660** |
-
-### Vidu-StreamBench
-
-Vidu-StreamBench contains 500 samples with action instructions, reference first frames, and audio clips. It evaluates whether generated avatars can move naturally, remain stable over time, preserve identity, follow user instructions, and maintain coherent audio-video behavior in realistic streaming settings.
-
-In pairwise human preference tests, Vidu S1 is consistently preferred overall against leading commercial systems.
-
-| Comparison | Vidu S1 Preferred | Same | Other Preferred |
-| --- | ---: | ---: | ---: |
-| Vidu S1 vs. HeyGen | 56% | 16% | 28% |
-| Vidu S1 vs. LemonSlice | 46% | 24% | 30% |
-| Vidu S1 vs. Kling Avatar 2.0 | 48% | 22% | 30% |
-
-Vidu S1 is especially strong in subject controllability, reaching **100%** preference against HeyGen and LemonSlice and **60%** preference against Kling Avatar 2.0.
-
 ## Citation
 
 If you find Vidu S1 useful for your research, please cite:
 
 ```bibtex
-@misc{zhang2026vidus1realtimeinteractive,
-      title={Vidu S1: A Real-Time Interactive Video Generation Model}, 
-      author={Jintao Zhang and Kai Jiang and Jintao Chen and Xu Wang and Yang Luo and Yuji Wang and Dechuang Chen and Jungang Li and Chengyang Ye and Marco Chen and Hongzhou Zhu and Min Zhao and Yuxuan Jiang and Zhengkun Huang and Chendong Xiang and Kaiwen Zheng and Haoxu Wang and Xiaohang Wang and Qi Jia and Xin Chen and Yimin Chen and Youhe Jiang and Fangcheng Fu and Zhijie Deng and Fan Bao and Jianfei Chen and Jun Zhu},
-      year={2026},
-      eprint={2607.03118},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2607.03118}, 
+@article{zhang2026vidus1,
+  title={Vidu S1: A Real-Time Interactive Video Generation Model},
+  author={Zhang, Jintao and Jiang, Kai and Chen, Jintao and Wang, Xu and Luo, Yang and Wang, Yuji and Chen, Dechuang and Li, Jungang and Ye, Chengyang and Chen, Marco and Zhu, Hongzhou and Zhao, Min and Jiang, Yuxuan and Huang, Zhengkun and Xiang, Chendong and Zheng, Kaiwen and Wang, Haoxu and Wang, Xiaohang and Jia, Qi and Chen, Xin and Chen, Yimin and Jiang, Youhe and Fu, Fangcheng and Deng, Zhijie and Bao, Fan and Chen, Jianfei and Zhu, Jun},
+  journal={arXiv preprint arXiv:2607.03118},
+  year={2026}
 }
 ```
