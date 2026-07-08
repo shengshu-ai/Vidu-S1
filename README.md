@@ -7,23 +7,23 @@
 <div align="center" style="line-height: 1;">
   <a href="https://vidu.com/vidu-stream">
     <img alt="Try Vidu Stream"
-      src="https://img.shields.io/badge/Try-Vidu%20Stream-000000?labelColor=00a67d&color=000000&logo=googlegemini&logoColor=white" height="32"/>
+      src="https://img.shields.io/badge/Try-Vidu%20Stream-555555?labelColor=00a67d&color=555555&logo=googlegemini&logoColor=white" height="32"/>
   </a>
   <a href="https://arxiv.org/abs/2607.03118">
     <img alt="Paper"
-      src="https://img.shields.io/badge/Paper-arXiv%3A2607.03118-000000?labelColor=b31b1b&color=000000&logo=arxiv&logoColor=white" height="32"/>
+      src="https://img.shields.io/badge/Paper-arXiv%3A2607.03118-555555?labelColor=b31b1b&color=555555&logo=arxiv&logoColor=white" height="32"/>
   </a>
   <a href="#documentation-english">
     <img alt="English Documentation"
-      src="https://img.shields.io/badge/Docs-English-000000?labelColor=2f6fed&color=000000&logo=readthedocs&logoColor=white" height="32"/>
+      src="https://img.shields.io/badge/Docs-English-555555?labelColor=2f6fed&color=555555&logo=readthedocs&logoColor=white" height="32"/>
   </a>
   <a href="#documentation-chinese">
     <img alt="Chinese Documentation"
-      src="https://img.shields.io/badge/Docs-Chinese-000000?labelColor=0891b2&color=000000&logo=readthedocs&logoColor=white" height="32"/>
+      src="https://img.shields.io/badge/Docs-Chinese-555555?labelColor=0891b2&color=555555&logo=readthedocs&logoColor=white" height="32"/>
   </a>
   <a href="#documentation-chinese">
     <img alt="API Usage"
-      src="https://img.shields.io/badge/API-Documentation-000000?labelColor=7c3aed&color=000000&logo=fastapi&logoColor=white" height="32"/>
+      src="https://img.shields.io/badge/API-Documentation-555555?labelColor=7c3aed&color=555555&logo=fastapi&logoColor=white" height="32"/>
   </a>
 </div>
 
