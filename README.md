@@ -11,13 +11,13 @@
   <a href="https://arxiv.org/abs/2607.03118">
     <img alt="Paper" src="https://img.shields.io/badge/Paper-arXiv%3A2607.03118-b31b1b?style=for-the-badge&logo=arxiv&logoColor=white">
   </a>
-  <a href="#documentation">
+  <a href="#documentation-english">
     <img alt="English Documentation" src="https://img.shields.io/badge/Docs-English-2f6fed?style=for-the-badge&logo=readthedocs&logoColor=white">
   </a>
-  <a href="https://shengshu.feishu.cn/wiki/PSlDwao9GiEGOKkWS2FcWRtOnwe">
+  <a href="#documentation-chinese">
     <img alt="Chinese Documentation" src="https://img.shields.io/badge/Docs-Chinese-0891b2?style=for-the-badge&logo=readthedocs&logoColor=white">
   </a>
-  <a href="#api-usage">
+  <a href="#documentation-chinese">
     <img alt="API Usage" src="https://img.shields.io/badge/API-Usage-7c3aed?style=for-the-badge&logo=fastapi&logoColor=white">
   </a>
 </p>
@@ -52,20 +52,15 @@ Key breakthroughs:
 - **Try Vidu Stream**: [vidu.com/vidu-stream](https://vidu.com/vidu-stream)
 - **arXiv Paper**: [arxiv.org/abs/2607.03118](https://arxiv.org/abs/2607.03118)
 
-### Documentation
+### Documentation (English)
 
-- **English User Guide**: Coming soon.
-- **Chinese User Guide**: [shengshu.feishu.cn/wiki/PSlDwao9GiEGOKkWS2FcWRtOnwe](https://shengshu.feishu.cn/wiki/PSlDwao9GiEGOKkWS2FcWRtOnwe)
-
-### API Usage
-
-#### English
-
+- **User Guide**: Coming soon.
 - **API Documentation**: Coming soon.
 - **API Quickstart**: Coming soon.
 
-#### Chinese
+### Documentation (Chinese)
 
+- **User Guide**: [shengshu.feishu.cn/wiki/PSlDwao9GiEGOKkWS2FcWRtOnwe](https://shengshu.feishu.cn/wiki/PSlDwao9GiEGOKkWS2FcWRtOnwe)
 - **API Documentation**: [shengshu.feishu.cn/docx/T9jid9NSio6wSNxaw14c2HKKnKd](https://shengshu.feishu.cn/docx/T9jid9NSio6wSNxaw14c2HKKnKd)
 - **API Quickstart**: [shengshu.feishu.cn/wiki/GF2Uw5cGvihTBIk2zgYcKhzGnSf](https://shengshu.feishu.cn/wiki/GF2Uw5cGvihTBIk2zgYcKhzGnSf)
 
