@@ -59,6 +59,13 @@ Key breakthroughs:
 
 ### API Usage
 
+#### English
+
+- **API Documentation**: Coming soon.
+- **API Quickstart**: Coming soon.
+
+#### Chinese
+
 - **API Documentation**: [shengshu.feishu.cn/docx/T9jid9NSio6wSNxaw14c2HKKnKd](https://shengshu.feishu.cn/docx/T9jid9NSio6wSNxaw14c2HKKnKd)
 - **API Quickstart**: [shengshu.feishu.cn/wiki/GF2Uw5cGvihTBIk2zgYcKhzGnSf](https://shengshu.feishu.cn/wiki/GF2Uw5cGvihTBIk2zgYcKhzGnSf)
 
