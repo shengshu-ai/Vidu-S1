@@ -34,7 +34,7 @@
 
 ## Introduction
 
-Vidu S1 is a real-time interactive video generation model for voice-controlled digital characters. Users can guide generated video content at any moment through spoken instructions, enabling live interaction instead of the conventional offline, one-shot generation workflow.
+Vidu S1 is a real-time interactive video generation model for voice-controlled digital characters. Users can guide generated video content at any moment through spoken instructions, enabling live interaction.
 
 Key breakthroughs:
 
@@ -49,8 +49,8 @@ Key breakthroughs:
 
 ### Websites
 
-- **Try Vidu Stream**: [vidu.com/vidu-stream](https://vidu.com/vidu-stream)
-- **arXiv Paper**: [arxiv.org/abs/2607.03118](https://arxiv.org/abs/2607.03118)
+- **Try Vidu S1**: [vidu.com/vidu-stream](https://vidu.com/vidu-stream)
+- **ArXiv Paper**: [arxiv.org/abs/2607.03118](https://arxiv.org/abs/2607.03118)
 
 ### Documentation (English)
 
@@ -66,7 +66,6 @@ Key breakthroughs:
 
 ## Updates
 
-- **[2026-07]**: Vidu S1 technical README released.
 - **[2026-07]**: Try Vidu Stream at [vidu.com/vidu-stream](https://vidu.com/vidu-stream).
 
 ## Citation
