@@ -4,23 +4,28 @@
   <b><font size="8">Vidu S1: A Real-Time Interactive Video Generation Model</font></b>
 </p>
 
-<p align="center">
+<div align="center" style="line-height: 1;">
   <a href="https://vidu.com/vidu-stream">
-    <img alt="Try Vidu Stream" src="https://img.shields.io/badge/Try-Vidu_Stream-00a67d?style=for-the-badge&logo=googlegemini&logoColor=white">
+    <img alt="Try Vidu Stream"
+      src="https://img.shields.io/badge/Try-Vidu%20Stream-00a67d?color=00a67d&logo=googlegemini&logoColor=white"/>
   </a>
   <a href="https://arxiv.org/abs/2607.03118">
-    <img alt="Paper" src="https://img.shields.io/badge/Paper-arXiv%3A2607.03118-b31b1b?style=for-the-badge&logo=arxiv&logoColor=white">
+    <img alt="Paper"
+      src="https://img.shields.io/badge/Paper-arXiv%3A2607.03118-b31b1b?color=b31b1b&logo=arxiv&logoColor=white"/>
   </a>
   <a href="#documentation-english">
-    <img alt="English Documentation" src="https://img.shields.io/badge/Docs-English-2f6fed?style=for-the-badge&logo=readthedocs&logoColor=white">
+    <img alt="English Documentation"
+      src="https://img.shields.io/badge/Docs-English-2f6fed?color=2f6fed&logo=readthedocs&logoColor=white"/>
   </a>
   <a href="#documentation-chinese">
-    <img alt="Chinese Documentation" src="https://img.shields.io/badge/Docs-Chinese-0891b2?style=for-the-badge&logo=readthedocs&logoColor=white">
+    <img alt="Chinese Documentation"
+      src="https://img.shields.io/badge/Docs-Chinese-0891b2?color=0891b2&logo=readthedocs&logoColor=white"/>
   </a>
   <a href="#documentation-chinese">
-    <img alt="API Usage" src="https://img.shields.io/badge/API-Usage-7c3aed?style=for-the-badge&logo=fastapi&logoColor=white">
+    <img alt="API Usage"
+      src="https://img.shields.io/badge/API-Documentation-7c3aed?color=7c3aed&logo=fastapi&logoColor=white"/>
   </a>
-</p>
+</div>
 
 <p align="center">
   <img src="figures/vidu-s1-experience.gif" alt="Vidu S1 Experience Preview" width="80%">
