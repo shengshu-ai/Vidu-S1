@@ -1,8 +1,4 @@
-# Vidu-S1
-
-<p align="center">
-  <b><font size="8">Vidu S1: A Real-Time Interactive Video Generation Model</font></b>
-</p>
+# Vidu S1: A Real-Time Interactive Video Generation Model
 
 <div align="center" style="line-height: 1;">
   <a href="https://vidu.com/vidu-stream">
