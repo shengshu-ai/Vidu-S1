@@ -52,9 +52,9 @@ Key breakthroughs:
 
 ### English
 
-- **User Guide**: Coming soon.
-- **API Documentation**: Coming soon.
-- **API Quickstart**: Coming soon.
+- **User Guide**: [notion.site/Vidu-S1-Introduction](https://auspicious-passive-36a.notion.site/Vidu-S1-Introduction-34324005a3e48009b3f3d9c07c79d83b)
+- **API Documentation**: [shengshu.feishu.cn/wiki/E5EmwSjh0i6UftkCGQcckCUgn9d](https://shengshu.feishu.cn/wiki/E5EmwSjh0i6UftkCGQcckCUgn9d)
+- **API Quickstart**: [shengshu.feishu.cn/wiki/Yz8RwYuu9i2qLukPS9NcXsN0nxg](https://shengshu.feishu.cn/wiki/Yz8RwYuu9i2qLukPS9NcXsN0nxg)
 
 ### Chinese
 
