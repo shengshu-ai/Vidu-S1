@@ -64,7 +64,7 @@ Key breakthroughs:
 
 ## Updates
 
-- **[2026-07]**: Try Vidu S1 at [vidu.com/vidu-stream](https://vidu.com/vidu-stream).
+- **[2026-07]**: Try Vidu S1 at [vidu.com/vidu-stream](https://vidu.com/vidu-stream)
 
 ## Citation
 
