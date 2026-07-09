@@ -37,10 +37,9 @@
 
 ## Introduction
 
-Vidu S1 is a real-time interactive video generation model for voice-controlled digital characters. Users can guide generated video content at any moment through spoken instructions, enabling live interaction.
+Vidu S1 is a real-time interactive video generation model for voice-controlled digital characters. Users can guide generated video content at any moment through spoken instructions, enabling live interaction.  
 
 Key breakthroughs:
-
 1. **Real-time speech control over video content**
    - Users can directly instruct digital characters to perform actions.
 2. **Infinite-length real-time interactive generation**
@@ -48,28 +47,28 @@ Key breakthroughs:
 3. **Custom character images and voice tones**
    - Vidu S1 supports real people, anime-style characters, pets, and other personalized avatars.
 
-## Links
+## Quick Links
 
-### Websites
+- **Try Vidu S1**: https://vidu.com/vidu-stream
+- **Paper**: https://arxiv.org/abs/2607.03118
 
-- **Try Vidu S1**: [vidu.com/vidu-stream](https://vidu.com/vidu-stream)
-- **ArXiv Paper**: [arxiv.org/abs/2607.03118](https://arxiv.org/abs/2607.03118)
+## Docs
 
-### Documentation (English)
+### English
 
 - **User Guide**: Coming soon.
 - **API Documentation**: Coming soon.
 - **API Quickstart**: Coming soon.
 
-### Documentation (Chinese)
+### Chinese
 
-- **User Guide**: [shengshu.feishu.cn/wiki/PSlDwao9GiEGOKkWS2FcWRtOnwe](https://shengshu.feishu.cn/wiki/PSlDwao9GiEGOKkWS2FcWRtOnwe)
-- **API Documentation**: [shengshu.feishu.cn/docx/T9jid9NSio6wSNxaw14c2HKKnKd](https://shengshu.feishu.cn/docx/T9jid9NSio6wSNxaw14c2HKKnKd)
-- **API Quickstart**: [shengshu.feishu.cn/wiki/GF2Uw5cGvihTBIk2zgYcKhzGnSf](https://shengshu.feishu.cn/wiki/GF2Uw5cGvihTBIk2zgYcKhzGnSf)
+- **User Guide**: [Vidu S1 使用说明](https://shengshu.feishu.cn/wiki/PSlDwao9GiEGOKkWS2FcWRtOnwe)
+- **API Documentation**: [API 文档](https://shengshu.feishu.cn/docx/T9jid9NSio6wSNxaw14c2HKKnKd)
+- **API Quickstart**: [API 快速开始](https://shengshu.feishu.cn/wiki/GF2Uw5cGvihTBIk2zgYcKhzGnSf)
 
 ## Updates
 
-- **[2026-07]**: Try Vidu Stream at [vidu.com/vidu-stream](https://vidu.com/vidu-stream).
+- **[2026-07]**: Try Vidu S1 at [vidu.com/vidu-stream](https://vidu.com/vidu-stream).
 
 ## Citation
 
