@@ -62,7 +62,7 @@ Key breakthroughs:
 - **API Documentation**: [API 文档](https://shengshu.feishu.cn/docx/T9jid9NSio6wSNxaw14c2HKKnKd)
 - **API Quickstart**: [API 快速开始](https://shengshu.feishu.cn/wiki/GF2Uw5cGvihTBIk2zgYcKhzGnSf)
 
-## Agent Skill
+### Agent Skill
 
 For agent-assisted API integration, use the `vidu-s1-api` Skill. In Claude Code, Codex, OpenClaw, or any agent that supports Skills, say directly:
 
