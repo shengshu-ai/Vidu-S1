@@ -62,6 +62,16 @@ Key breakthroughs:
 - **API Documentation**: [API 文档](https://shengshu.feishu.cn/docx/T9jid9NSio6wSNxaw14c2HKKnKd)
 - **API Quickstart**: [API 快速开始](https://shengshu.feishu.cn/wiki/GF2Uw5cGvihTBIk2zgYcKhzGnSf)
 
+## Agent Skill
+
+For agent-assisted API integration, use the `vidu-s1-api` Skill. In Claude Code, Codex, OpenClaw, or any agent that supports Skills, say directly:
+
+```text
+Install this skill: https://github.com/shengshu-ai/vidu-s1-api/tree/main/skills/vidu-s1-api
+```
+
+The agent will clone and install it into the proper Skills directory. Restart the agent if required, then ask it to load `vidu-s1-api` for Vidu S1 API integration.
+
 ## Updates
 
 - **[2026-07]**: Vidu S1 is now available for everyone to try as a playable platform at [vidu.com/vidu-stream](https://vidu.com/vidu-stream)
