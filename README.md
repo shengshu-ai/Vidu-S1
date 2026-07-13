@@ -81,9 +81,9 @@ The agent will clone and install it into the proper Skills directory. Restart th
 If you find Vidu S1 useful for your research, please cite:
 
 ```bibtex
-@article{zhang2026vidus1,
+@article{zhang2026vidu,
   title={Vidu S1: A Real-Time Interactive Video Generation Model},
-  author={Zhang, Jintao and Jiang, Kai and Chen, Jintao and Wang, Xu and Luo, Yang and Wang, Yuji and Chen, Dechuang and Li, Jungang and Ye, Chengyang and Chen, Marco and Zhu, Hongzhou and Zhao, Min and Jiang, Yuxuan and Huang, Zhengkun and Xiang, Chendong and Zheng, Kaiwen and Wang, Haoxu and Wang, Xiaohang and Jia, Qi and Chen, Xin and Chen, Yimin and Jiang, Youhe and Fu, Fangcheng and Deng, Zhijie and Bao, Fan and Chen, Jianfei and Zhu, Jun},
+  author={Zhang, Jintao and Jiang, Kai and Chen, Jintao and Wang, Xu and Luo, Yang and Wang, Yuji and Chen, Dechuang and Li, Jungang and Ye, Chengyang and Chen, Marco and others},
   journal={arXiv preprint arXiv:2607.03118},
   year={2026}
 }
